@@ -16,7 +16,7 @@ const Home = () => {
     localStorage.removeItem("email");
 
     // Redirecionar para a página de login
-    window.location.href = "/login";
+    window.location.href = "/";
   };
 
   if (!user) {

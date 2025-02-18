@@ -70,6 +70,7 @@ const Cadastro = () => {
         {sucesso && <p style={{ color: "green" }}>{sucesso}</p>}
         <section className="botoes__login">
         <button type="submit">Cadastrar</button>
+        <a href="/">Login</a>
         </section>
       </form>
     </div>
