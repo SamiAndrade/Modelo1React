@@ -14,7 +14,7 @@ const Login = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost/Modelo1/backend/login.php",
+        "http://localhost/Modelo1/frontend/backend/login.php",
         {
           email: email,
           senha: senha,

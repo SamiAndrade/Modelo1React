@@ -23,7 +23,7 @@ const Cadastro = () => {
     try {
       // Enviar dados para o backend usando axios
       const response = await axios.post(
-        "http://localhost/Modelo1/backend/cadastro.php", // URL do seu backend
+        "http://localhost/Modelo1/frontend/backend/cadastro.php", // URL do seu backend
         formData,
         {
           headers: {
