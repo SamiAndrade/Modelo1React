@@ -36,9 +36,7 @@
 
 - **Instale as dependências** do projeto:
 1. Instale as dependências do projeto:
+2.  Inicie o servidor de desenvolvimento: `npm start`
   ```bash
   npm install
-
-2. - Inicie o servidor de desenvolvimento: `npm start`
- ```bash
   npm start
