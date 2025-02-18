@@ -35,7 +35,7 @@
 ### 4. Frontend
 
 - **Instale as dependências** do projeto:
-1. Instale as dependências do projeto:
+1. Instale as dependências do projeto: `npm install`
 2.  Inicie o servidor de desenvolvimento: `npm start`
   ```bash
   npm install
