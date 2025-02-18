@@ -47,9 +47,9 @@ const Cadastro = () => {
   };
 
   return (
-    <div>
+    <div className="conteudo__form">
       <h2>Cadastro</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="conteudo__inputs">
         <div>
           <label>Email</label>
           <input
@@ -68,7 +68,9 @@ const Cadastro = () => {
         </div>
         {erro && <p style={{ color: "red" }}>{erro}</p>}
         {sucesso && <p style={{ color: "green" }}>{sucesso}</p>}
+        <section className="botoes__login">
         <button type="submit">Cadastrar</button>
+        </section>
       </form>
     </div>
   );
