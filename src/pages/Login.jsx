@@ -42,9 +42,9 @@ const Login = () => {
   };
 
   return (
-    <div>
+    <div className="conteudo__form">
       <h2>Login</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="conteudo__inputs">
         <div>
           <label>Email</label>
           <input
@@ -63,7 +63,10 @@ const Login = () => {
         </div>
         {erro && <p style={{ color: "red" }}>{erro}</p>}
         {sucesso && <p style={{ color: "green" }}>{sucesso}</p>}
+        <section className="botoes__login">
         <button type="submit">Entrar</button>
+        <a href="/cadastro">Cadastrar</a>
+        </section>
       </form>
     </div>
   );

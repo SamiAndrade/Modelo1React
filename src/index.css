@@ -6,8 +6,74 @@
 body {
   color: white;
   background-color: #000;
+  width: 100%;
+  height: 720px;
+  font-weight: bold;
 }
  
+div {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 1em;
+  color: rgb(176, 162, 162);
+}
+
+.conteudo__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #330000;
+  width: 50%;
+  height: 16em;
+  border-radius: 1em;
+  gap: 1em;
+  font-size: 32px;
+}
+
+.conteudo__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  font-size: 20px;
+}
+
+.conteudo__inputs label {
+  text-align: center;
+}
+
+.conteudo__inputs input {
+  text-align: center;
+  padding: 0.5em 5em;
+  margin-left: 1em;
+  color: white;
+  background-color: #402323;
+}
+
+.botoes__login {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.botoes__login button {
+  margin: auto;
+  width: 50%;
+  padding: 0.5em;
+  font-size: 16px;
+  border-radius: 0.5em;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 1em;
+}
 
 .conteudo__home {
   background-color: #330000;
