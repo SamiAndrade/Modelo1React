@@ -33,21 +33,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 
 <body class="bg-black text-bg-primary">
-    <div class="container">
-        <form action="cadastro.php" method="POST" autoComplete="off">
+    <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+        <form action="cadastro.php" class="d-flex flex-column justify-content-center align-items-center badge bg-secondary w-50 rounded h-75" method="POST" autoComplete="off">
 
-            <legend>Cadastro</legend>
-            <div>
-                <label htmlFor="email">Email</label>
-                <input type="email" id="email" name="email" class="form-control" placeholder="Email" />
+            <legend class="mb-4 text-center fs-1">Cadastro</legend>
+            <div class="mb-3 d-flex gap-1">
+                <label htmlFor="email" class="form-label w-25 fs-6 align-self-center">Email</label>
+                <input type="email" id="email" name="email" class="form-control w-100 p-2" placeholder="Email" />
             </div>
-            <div>
-                <label htmlFor="password">Senha</label>
-                <input type="password" id="senha" name="senha" class="form-control" placeholder="Senha" />
+            <div class="mb-3 d-flex">
+                <label htmlFor="password" class="form-label w-25 fs-6 align-self-center">Senha</label>
+                <input type="password" id="senha" name="senha" class="form-control w-100 p-2" placeholder="Senha" />
             </div>
-            <div>
-                <button type="submit" name="enviarDados" class="btn btn-primary">Cadastrar</button>
-                <a href="/login">Login</a>
+            <div class="d-flex flex-column gap-3 justify-content-between">
+                <button type="submit" name="enviarDados" class="btn btn-primary w-100 p-2">Cadastrar</button>
+                <a href="/login" class="btn ms-2 text-center  w-100 p-2 align-self-end">Login</a>
             </div>
         </form>
     </div>
