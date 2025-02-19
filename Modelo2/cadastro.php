@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
             <div class="d-flex flex-column gap-3 justify-content-between">
                 <button type="submit" name="enviarDados" class="btn btn-primary w-100 p-2">Cadastrar</button>
-                <a href="/login" class="btn ms-2 text-center  w-100 p-2 align-self-end">Login</a>
+                <a href="./login.php" class="btn ms-2 text-center  w-100 p-2 align-self-end">Login</a>
             </div>
         </form>
     </div>
